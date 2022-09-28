@@ -58,9 +58,9 @@ class ICICI extends Bank {
 public class assignment {
   public static void main(String[] args) {
     Bank bank = new Bank("Noida", 1.2f);
-    SBI sbiBranch = new SBI("Kanpur", 1.0f, "121");
+    SBI sbiBranch = new SBI("Indore", 1.0f, "121");
     BOI boiBranch = new BOI("Delhi", 1.5f, "863");
-    ICICI iciciBranch = new ICICI("Gwalior", 2.0f, "765");
+    ICICI iciciBranch = new ICICI("Bhopal", 2.0f, "765");
     bank.getDetails();
     sbiBranch.getDetails();
     boiBranch.getDetails();
