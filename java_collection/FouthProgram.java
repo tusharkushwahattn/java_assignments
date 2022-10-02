@@ -1,3 +1,6 @@
+
+/*Create class Employee with attributes name,age,designation and use
+ instances of these class as keys in a Map and their salary as value */
 import java.util.*;
 
 class Employee {
@@ -20,10 +23,10 @@ class Employee {
 public class FouthProgram {
 
     public static void main(String args[]) {
-        Employee e1 = new Employee(20, "Anshuman", "trainee");
-        Employee e2 = new Employee(28, "Anup", "manager");
-        Employee e3 = new Employee(27, "Anish", "director");
-        Employee e4 = new Employee(38, "Ashish", "CEO");
+        Employee e1 = new Employee(20, "A", "trainee");
+        Employee e2 = new Employee(28, "B", "manager");
+        Employee e3 = new Employee(27, "C", "director");
+        Employee e4 = new Employee(38, "D", "CEO");
 
         Map<Employee, Integer> map = new LinkedHashMap<>();
 

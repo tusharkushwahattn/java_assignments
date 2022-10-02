@@ -1,3 +1,7 @@
+
+/*Given the following class
+Employee class{ Double Age; Double Salary; String Name}
+Design the class in such a way that the default sorting should work on firstname and lastname. */
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -43,7 +47,7 @@ class Employee {
 
 public class SecondProgram {
     public static void main(String[] args) {
-        Employee employee1 = new Employee("A", 21, 100.0);
+        Employee employee1 = new Employee("A", 21.0, 100.0);
         Employee employee2 = new Employee("B", 20, 80.0);
         Employee employee3 = new Employee("C", 21, 90.0);
         Employee employee4 = new Employee("D", 22, 120.0);
