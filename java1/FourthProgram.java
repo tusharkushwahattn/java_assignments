@@ -1,3 +1,7 @@
+/*Create a two dimensional array of integers and display:
+
+sum of all elements of each column
+sum of all elements of each row */
 public class FourthProgram {
     public static void main(String[] args) {
         int rows, cols, sumRow, SumCol;
@@ -19,6 +23,7 @@ public class FourthProgram {
                 SumCol = SumCol + a[j][i];
             }
             System.out.println("Sum of " + (i + 1) + " Column: " + SumCol);
+            System.out.println(a[0][1]);
         }
     }
 

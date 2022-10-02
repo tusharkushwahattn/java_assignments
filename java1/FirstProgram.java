@@ -1,3 +1,6 @@
+/*Write a class with FirstName, LastName & age field.
+  Print Firstname, LastName & age using static block, static method & static variable respectively.*/
+
 public class FirstProgram {
     static String firstName = "Tushar";
     static String lastName = "Kushwaha";
@@ -5,7 +8,7 @@ public class FirstProgram {
 
     public static void method() {
         System.out.println("In static method");
-        System.out.println("Tushar Kushwaha 22");
+        System.out.println(firstName + ' ' + lastName + ' ' + age);
     }
 
     public static void main(String[] args) {
@@ -16,7 +19,7 @@ public class FirstProgram {
 
     static {
         System.out.println("In static block");
-        System.out.println("Tushar Kushwaha 22");
+        System.out.println(firstName + ' ' + lastName + ' ' + age);
     }
 
 }
